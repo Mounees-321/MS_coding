@@ -1,18 +1,31 @@
-FIRST IN COMMAND PROMPT TO USE GIT
+# Configure Git (Run once)
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
 
-1.enter git
-2.git config –global user.name “Your Name”	
-3.git config –global user.email “youremail@example.com”
+# Clone a repository
+git clone <repo_url>
 
-NEXT IN VS CODE 
-//to change directory
-cd directoryname FOR EXAMPLE(cd MS_coding)
+# Initialize a new repository
+git init
 
-//to add file to folder
-git add filename
+# Check repository status
+git status
 
-//to commit changes
-git commit -m "gitcheats.txt added"
+# Add files to staging
+git add <filename>  # Add specific file
+git add .           # Add all files
 
-//to push into git repository 
-git push origin main
+# Commit changes
+git commit -m "Your commit message"
+
+# Push changes to GitHub
+git push origin <branch_name>
+
+# Pull latest changes from GitHub
+git pull origin <branch_name>
+
+# Create and switch to a new branch
+git checkout -b <new_branch>
+
+# Merge branches
+git merge <branch_name>
